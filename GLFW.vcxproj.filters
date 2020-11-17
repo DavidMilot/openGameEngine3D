@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GLFW">
+      <UniqueIdentifier>{6888C969-54EB-580E-FD70-91C4E9B22491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D">
+      <UniqueIdentifier>{5E9DAD75-4A96-CCC7-73C8-B14C5F20ACD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor">
+      <UniqueIdentifier>{FBBD5A0D-67F5-A2A4-70FF-06C8DCB5C99D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW">
+      <UniqueIdentifier>{1A6E92A1-0629-824D-AFE0-FA979B7ACCDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\include">
+      <UniqueIdentifier>{8D0F515B-79F6-1253-2247-79700E0D8CB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\include\GLFW">
+      <UniqueIdentifier>{EC8AB45F-58A5-1701-A1C7-27950D213F08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\src">
+      <UniqueIdentifier>{31A90BE3-1DFA-F624-465E-E5E6320E8A8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GLFW\glfw3.h">
+      <Filter>include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3native.h">
+      <Filter>include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="openGameEngine3D\vendor\GLFW\include\GLFW\glfw3.h">
+      <Filter>openGameEngine3D\vendor\GLFW\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="openGameEngine3D\vendor\GLFW\include\GLFW\glfw3native.h">
+      <Filter>openGameEngine3D\vendor\GLFW\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="openGameEngine3D\vendor\GLFW\src\glfw_config.h">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glfw_config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\context.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\egl_context.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\init.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\input.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\monitor.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\osmesa_context.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\vulkan.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\wgl_context.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\win32_init.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\win32_joystick.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\win32_monitor.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\win32_thread.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\win32_time.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\win32_window.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openGameEngine3D\vendor\GLFW\src\window.c">
+      <Filter>openGameEngine3D\vendor\GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\context.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\egl_context.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\monitor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\osmesa_context.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wgl_context.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32_init.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32_joystick.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32_monitor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32_thread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32_time.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32_window.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

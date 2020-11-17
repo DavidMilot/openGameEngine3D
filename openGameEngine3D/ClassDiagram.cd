@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="openGameEngine3D::ImGuiLayer" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EBEAAAAAIAAABAAAgEAABAAAAIACQAAABABBAAEAAAA=</HashCode>
+      <FileName>src\openGameEngine3D\ImGui\ImGuiLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="openGameEngine3D::Event">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIAIAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\openGameEngine3D\Events\Event.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="openGameEngine3D::EventDispatcher">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\openGameEngine3D\Events\Event.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="openGameEngine3D::EventType">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEACAAAAAAgAAAIgAAAAgAAAAEBAgAAAAAIABFgAQA=</HashCode>
+      <FileName>src\openGameEngine3D\Events\Event.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="openGameEngine3D::EventCategory">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAQAAQAAEAAIA=</HashCode>
+      <FileName>src\openGameEngine3D\Events\Event.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

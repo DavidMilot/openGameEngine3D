@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="openGameEngine3D">
+      <UniqueIdentifier>{5E9DAD75-4A96-CCC7-73C8-B14C5F20ACD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\src">
+      <UniqueIdentifier>{75DAF4A3-6169-7E6D-0A88-9268F6F58E13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\src\Platforms">
+      <UniqueIdentifier>{FCF7211C-E81D-EC82-D163-714EBD28114F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\src\Platforms\OpenGL">
+      <UniqueIdentifier>{B04D9004-1C12-8FF4-E577-BFBE51FB2A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\src\Platforms\Windows">
+      <UniqueIdentifier>{36DEB5EE-2230-8DDE-0B4F-CAEEF73FA6C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\src\openGameEngine3D">
+      <UniqueIdentifier>{9D4F84E1-0914-83D1-D279-B39B3EFD1E07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\src\openGameEngine3D\Events">
+      <UniqueIdentifier>{E1A88A85-CDBB-8ADE-76A5-67CB6297272C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\src\openGameEngine3D\ImGui">
+      <UniqueIdentifier>{8746C3D5-F3AB-565C-7C84-F834E8E84BCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor">
+      <UniqueIdentifier>{FBBD5A0D-67F5-A2A4-70FF-06C8DCB5C99D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLAD">
+      <UniqueIdentifier>{626D92A1-4E28-824D-F7DF-FA97E379CCDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLAD\include">
+      <UniqueIdentifier>{D5D6DFA1-C1BD-A199-6A0E-08B756D41A00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLAD\include\KHR">
+      <UniqueIdentifier>{C94704A9-B5C4-F7EB-DE41-F8FFCA1D947F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLAD\include\glad">
+      <UniqueIdentifier>{FC369DC9-6851-006B-B173-10FF1DCD2772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW">
+      <UniqueIdentifier>{1A6E92A1-0629-824D-AFE0-FA979B7ACCDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\build">
+      <UniqueIdentifier>{D9E568D3-C521-6C3D-2E34-84341A8F1458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\build\src">
+      <UniqueIdentifier>{70E8C586-5C3A-9D76-4559-DA86314AB65F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\deps">
+      <UniqueIdentifier>{75607844-E1CE-CDC3-2AB8-88C39665C35F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\deps\glad">
+      <UniqueIdentifier>{9CC42CD3-8816-04C3-7135-41D35D261DAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\deps\mingw">
+      <UniqueIdentifier>{267E3039-920D-F223-9B09-D33B07182D30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\deps\vs2008">
+      <UniqueIdentifier>{F7CBD174-E348-C5B7-0CC6-C5CBF8A1614B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\include">
+      <UniqueIdentifier>{8D0F515B-79F6-1253-2247-79700E0D8CB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\include\GLFW">
+      <UniqueIdentifier>{EC8AB45F-58A5-1701-A1C7-27950D213F08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\GLFW\src">
+      <UniqueIdentifier>{31A90BE3-1DFA-F624-465E-E5E6320E8A8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm">
+      <UniqueIdentifier>{CACD4A98-36DB-787E-BFC1-74692BCE4435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\glm">
+      <UniqueIdentifier>{192D4C39-8510-5B79-8E13-89B5FA7521CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\glm\detail">
+      <UniqueIdentifier>{BB4E3F03-A7A0-16F3-90BF-53037CB02FDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\glm\simd">
+      <UniqueIdentifier>{15A1D41E-0188-9616-AAD8-FC33969E0F7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\test">
+      <UniqueIdentifier>{99D4D862-8525-C4A4-AE89-B2669A39570E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\test\bug">
+      <UniqueIdentifier>{46EF0E16-32D6-D00D-DB26-372BC7EC4974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\test\cmake">
+      <UniqueIdentifier>{E98295D5-D5D4-6CC5-BEF3-A9D5AAE485AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\test\core">
+      <UniqueIdentifier>{B14CEDD7-1D11-ECC7-E676-1C9252FA87FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\test\ext">
+      <UniqueIdentifier>{79FC0E16-65E3-D00D-0E34-372BFAF94974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\test\gtc">
+      <UniqueIdentifier>{66040F16-52EB-D00D-FB3B-372BE7014A74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\test\gtx">
+      <UniqueIdentifier>{7B040F16-67EB-D00D-103C-372BFC014A74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\glm\test\perf">
+      <UniqueIdentifier>{1543F4D7-8107-F3C7-4A6D-2392B6F08EFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui">
+      <UniqueIdentifier>{A51B5AD6-1134-4100-DAE0-D09946B8D599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples">
+      <UniqueIdentifier>{F3520EEC-DFA4-E5DB-C8C3-22ECB4B4FEC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_allegro5">
+      <UniqueIdentifier>{E8C6BC70-54AE-A766-5D9C-A9E2C9024B29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_apple_metal">
+      <UniqueIdentifier>{B1B6E885-9D76-792A-0694-6135F2728C3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_apple_metal\Shared">
+      <UniqueIdentifier>{B790E2E2-23AF-F6AF-6C7C-FCC1D8D931B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_emscripten">
+      <UniqueIdentifier>{47B7900C-B329-D328-FCBD-08AD686F9D21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_glfw_opengl2">
+      <UniqueIdentifier>{F32F4579-5FED-EDAF-E8B7-D91754746004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_glfw_opengl3">
+      <UniqueIdentifier>{F42F4579-60ED-EDAF-E9B7-D91755746004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_glfw_vulkan">
+      <UniqueIdentifier>{AD1B4098-99DB-D03C-02F9-B847EED7E34E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_glut_opengl2">
+      <UniqueIdentifier>{DF5D6E58-4B1B-178F-D4E5-02F740A289E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_marmalade">
+      <UniqueIdentifier>{71696DB7-5D3E-B56A-86ED-F4667221C381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_null">
+      <UniqueIdentifier>{282210B3-9433-B859-1D85-4A9989954193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_sdl_directx11">
+      <UniqueIdentifier>{84510BE8-70BC-CBF3-19D8-305905228FD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_sdl_opengl2">
+      <UniqueIdentifier>{C61B870D-B2DB-17B2-1BF9-FFBC07D82AC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_sdl_opengl3">
+      <UniqueIdentifier>{C71B870D-B3DB-17B2-1CF9-FFBC08D82AC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_sdl_vulkan">
+      <UniqueIdentifier>{20593A8D-8CCB-7CA9-D55F-B22D411147A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_win32_directx10">
+      <UniqueIdentifier>{B3D0787E-9FA6-FF7B-8850-1ACF74C5321D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_win32_directx11">
+      <UniqueIdentifier>{B4D0787E-A0A6-FF7B-8950-1ACF75C5321D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_win32_directx12">
+      <UniqueIdentifier>{B5D0787E-A1A6-FF7B-8A50-1ACF76C5321D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\example_win32_directx9">
+      <UniqueIdentifier>{2B4C8FEC-9714-5D70-60A5-6582CC2C8DAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\libs">
+      <UniqueIdentifier>{2CA73626-980C-CAAC-21E5-6B858D49BF1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\libs\gl3w">
+      <UniqueIdentifier>{D8CFA66F-C478-0E9F-ED0E-2A1ED91629E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\libs\gl3w\GL">
+      <UniqueIdentifier>{3AB2DF87-A6C3-872E-2F15-1A6E9B251168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\libs\glfw">
+      <UniqueIdentifier>{6BD6A66F-577F-0E9F-8015-2A1E6C1D29E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\libs\glfw\include">
+      <UniqueIdentifier>{DE38AD66-CA0D-F519-F3BC-3416DFF00231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\libs\glfw\include\GLFW">
+      <UniqueIdentifier>{DD2E0445-49F7-D1C8-1288-DADA7E0F0204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\examples\libs\usynergy">
+      <UniqueIdentifier>{E1DD0B2D-CD1C-B6A8-769F-92DA62BD6B13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\misc">
+      <UniqueIdentifier>{A03D565E-8C79-59C8-F58B-71BFE1E601E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\misc\cpp">
+      <UniqueIdentifier>{728797F4-5ED9-6EE4-47F8-ABF433E987CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\misc\fonts">
+      <UniqueIdentifier>{F9EFCC78-E56C-C0BB-0EEA-C0CFFAC55C4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\misc\freetype">
+      <UniqueIdentifier>{5390C6A9-BFF5-5930-48CE-FB08B4324F9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\imgui\misc\single_file">
+      <UniqueIdentifier>{9076B9E5-7CF4-097F-65EC-C71651094CA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog">
+      <UniqueIdentifier>{D3A525B9-BFCB-EF1F-A811-75EB94D614EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\bench">
+      <UniqueIdentifier>{62921671-4E79-D868-F7C9-3E86E38F51CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\example">
+      <UniqueIdentifier>{AEDA5F23-9A2C-3713-834B-74236F3C50FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\include">
+      <UniqueIdentifier>{46F01840-3242-F02F-1B61-2D4007520919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\include\spdlog">
+      <UniqueIdentifier>{BEF500BD-2A66-0336-F384-7DBE5FB43B37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\include\spdlog\cfg">
+      <UniqueIdentifier>{3D1DFD9B-A9E3-59B8-F23E-E81A5E44C81C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\include\spdlog\details">
+      <UniqueIdentifier>{33C45AAF-9FE0-4CA0-68B8-B90DD493B661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\include\spdlog\fmt">
+      <UniqueIdentifier>{F42AFD9B-60F1-59B8-A94C-E81A1552C81C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\include\spdlog\fmt\bundled">
+      <UniqueIdentifier>{E1FDEEAA-4D70-31C7-9604-674B02B6FBBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\include\spdlog\sinks">
+      <UniqueIdentifier>{B5B9DC90-21CB-8437-AA1C-1777162D0E71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\src">
+      <UniqueIdentifier>{6A15767C-5651-79E6-BF63-91DDABBE2101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGameEngine3D\vendor\spdlog\tests">
+      <UniqueIdentifier>{F5625C72-E149-1E6A-8A9A-8487766097D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SandboxApp.cpp" />
+    <ClCompile Include="Sandbox2D.cpp" />
+    <ClCompile Include="ExampleLayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sandbox2D.h" />
+    <ClInclude Include="ExampleLayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\shaders\LightCube.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\Texture.glsl" />
+    <None Include="assets\shaders\LightCube.glsl" />
+  </ItemGroup>
+</Project>
